@@ -1,0 +1,13 @@
+{
+  "name": "bc-test-design-system",
+  "version": "0.0.1",
+  "description": "Single sprint design system creation project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["design system"],
+  "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
+  "license": "ISC"
+}
