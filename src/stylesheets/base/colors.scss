@@ -1,0 +1,14 @@
+// colors.scss
+// ------------
+// From Colour Palette guidance:
+// https://developer.gov.bc.ca/Design-System/Colour-Palette
+
+$bc-primary: #003366 !default;    // dark blue - header, footer, primary button
+$bc-secondary: #fcba19 !default;  // yellow - header, footer, beta status indicator
+$bc-text: #313132 !default;       // dark grey - headings and paragraph text
+$bc-link: #1a5a96 !default;       // blue - links
+$bc-bg-dark: #38598a !default;    // blue - background for navbar
+$bc-bg-light: #f2f2f2 !default;   // off white - background for page
+$bc-component: #606060 !default;  // grey - text input, textarea, checkbox, radio button
+$bc-error: #d8292f !default;      // red - error messages and indicators
+$bc-success: #2e8540 !default;    // green - success messages and indicators

@@ -4,10 +4,23 @@
   "description": "Single sprint design system creation project",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["design system"],
+  "keywords": [
+    "design system"
+  ],
   "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass-middleware": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.16.3"
+  }
 }
