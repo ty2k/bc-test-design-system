@@ -8,7 +8,8 @@ This is a project to build a design system in a two week sprint as a learning ex
 src/
 |
 |-- components/               # Handlebars partials for components
-|-- stylesheets/              # Sass styles
+|-- stylesheets/              # Sass files
+    |-- components/           # Sass partials for components
     |-- style.scss            # Sass compilation entry point
     |-- base                  # Common modules (mixin declarations, variables)
         |-- _all.scss         # Include to get all modules

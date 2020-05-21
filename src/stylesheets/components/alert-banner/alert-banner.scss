@@ -1,0 +1,26 @@
+.bc-gov-alertbanner {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.bc-gov-alertbanner:before {
+  float: left;
+  font-family: 'Font Awesome 5 Free';
+  font-size: larger;
+  font-style: normal;
+  line-height: 1;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bc-gov-alertbanner p {
+  font-size: 18px;
+  margin: 0;
+  padding-left: 35px;
+}
