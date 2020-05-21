@@ -1,0 +1,29 @@
+.bc-gov-dropdown {
+  font-family: ‘BCSans’, ‘Noto Sans’, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  color: #313132;
+  background: white;
+  box-shadow: none;
+  border: 2px solid #606060;
+  min-width: 200px;
+  padding: 8px 45px 8px 15px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+
+.bc-gov-dropdown-label {
+  margin-bottom: 10px;
+}
+
+.bc-gov-dropdown-wrapper {
+  position: relative;
+  display: inline;
+}
+
+.fa-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: calc(1em - 4px);
+  right: 1em;
+}
