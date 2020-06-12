@@ -13,7 +13,7 @@ const sass = require('node-sass-middleware');
 app.set('view engine', 'handlebars');
 app.engine('handlebars', handlebars({
   layoutsDir: path.join(__dirname, 'views', 'layouts'),
-  partialsDir: path.join(__dirname, 'views', 'partials')
+  partialsDir: [ 'views/partials/' ]
 }));
 app.use(sass({
   src: path.join(__dirname, 'src', 'stylesheets'),
