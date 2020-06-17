@@ -1,0 +1,8 @@
+/*
+  Since we are using position: fixed for the header and navigation bar,
+  the <main> component must have a margin-top equal to their respective heights.
+*/
+
+main {
+  margin-top: calc(80px + 35px);
+}

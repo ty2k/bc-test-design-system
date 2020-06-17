@@ -2,6 +2,9 @@
 // ---------
 // Include to get all modules for compilation.
 
+// CSS reset (normalize.css)
+@import "../vendor/normalize";
+
 // Common modules
 @import "./colors";
 @import "./variables";
@@ -49,6 +52,9 @@
 
 // Link
 @import "../components/link/link";
+
+// Main
+@import "../components/main/main";
 
 // Navbar
 @import "../components/navbar/navbar";
