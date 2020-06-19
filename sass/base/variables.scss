@@ -1,0 +1,10 @@
+// variables.scss
+// --------------
+
+$padding: 10px;
+
+.container-dark {
+  background-color: $bc-primary;
+  display: inline-block;
+  padding: $padding;
+}
